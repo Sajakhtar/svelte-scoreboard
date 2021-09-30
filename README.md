@@ -1,29 +1,26 @@
-*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
 
-*Looking for a shareable component template instead? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
----
+# Svelte Scoreboard App
 
-# svelte app
+Courtesy of the [Svelte Crash Course](https://www.youtube.com/watch?v=uK2RnIzrQ0M) by Traversy Media.
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This project uses the template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
+npx degit sveltejs/template svelte-scoreboard
 cd svelte-app
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-
-## Get started
+## Getting started
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd svelte-scoreboard
 npm install
 ```
 
@@ -38,6 +35,11 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
+
+
+## Global CSS
+
+[Global CSS](https://github.com/bradtraversy/svelte-scoreboard/blob/master/public/global.css) taken from the official repo for the tutorial.
 
 ## Building and running in production mode
 
