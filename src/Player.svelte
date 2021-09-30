@@ -19,15 +19,9 @@
 		color: #204f6e;
 	}
 
-  h2 {
+  h3 {
     margin-bottom: 10px;
   }
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
 
 <div class="card">
