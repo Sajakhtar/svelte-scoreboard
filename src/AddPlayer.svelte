@@ -9,7 +9,7 @@
     e.preventDefault();
     dispatch("addplayer", player);
     player = { name: '', points: 0};
-  }
+  };
 </script>
 
 
